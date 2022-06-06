@@ -1,4 +1,5 @@
 # Face_Recognition_Based_Attendance
-###How to run:
+### How to run:
 Firstly, a window will open and ask for Enter Id and Enter Name. After entering name and id click on Take Images button. By clicking Take Images button camera of running computer is opened and it start taking image sample of person. This Id and Name is stored in folder EmpDetails and file name is EmpDetails.csv. It takes 50 images as sample and store them in folder TrainingImage. After completion it notify that images saved. After taking image sample click on Train Images button. Now it take few seconds to train machine for the images that are taken by clicking Take Image button and creates a Trainner.yml file and store in TrainingImageLabel folder. Now all initial setups are done. By clicking Track Images button camera of running machine is opened again. If face is recognised by system then Id and Name of person is shown on image,then click on quit button to quit this window. - After quitting the attendance of person will be stored in Attendance folder as csv file with name, id, date and time and it is also available in window.
-#Technologies Used: Python, OpenCV, Tkinter.
+### Technologies Used: 
+Python, OpenCV, Tkinter.
